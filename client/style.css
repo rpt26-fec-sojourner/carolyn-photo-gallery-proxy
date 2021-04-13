@@ -33,7 +33,6 @@
 .topnav-centered input[type=text] {
   border: none;
   padding-top: 5px;
-  /* padding-left: 1em; */
 }
 
 .topnav-centered button {
@@ -67,8 +66,6 @@
 .topnav-right i {
   margin-left: 1em;
   color: #222223;
-  /* padding-top: 5px; */
-  /* vertical-align: middle; */
 }
 
 .topnav-right button {
@@ -89,4 +86,17 @@
   margin-left: 10px;
   height: 2em;
   color: #717171;
+}
+
+#title {
+  width: 80%;
+  padding-left: 10%;
+}
+
+#description {
+  padding-left: 4%;
+}
+
+#reviews {
+  padding-left: 8%;
 }
