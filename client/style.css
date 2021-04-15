@@ -2,6 +2,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 14px;
   font-weight: 500;
+  padding-top: 1em;
 }
 
 .topnav {
@@ -15,12 +16,22 @@ body {
   vertical-align: middle;
 }
 
+.space-shuttle {
+  color:#ff395b;
+  position: absolute;
+  top: 20px;
+  left: 5em;
+  transform: rotate(270deg)
+}
+
 .spacebnb {
+  position: absolute;
   text-align: top;
   font-size: 20px;
   color: #ff395b;
   font-weight: bold;
-  vertical-align: 30%;
+  padding-top: 8px;
+  padding-left: 50px;
 }
 
 .topnav a {
@@ -67,7 +78,6 @@ body {
 }
 
 .topnav-right {
-  padding-top: 3px;
   float: right;
 }
 
@@ -111,18 +121,43 @@ body {
 }
 
 #reviews {
-  padding-left: 8%;
-  padding-right: 8%;
+  width: 80%;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin-left:  8%;
+  margin-right:  8%;
+  border-top: 1px solid #ddd;
 }
 
 .footer {
-  border-top: 1px solid #ddd;
-  padding: 27px 0;
-  margin-left: 9em;
-  margin-right: 9em;
+  padding: 27px 9em;
   color: #222223;
   font-weight: 300;
-  /* width: 85%; */
+  background-color: #f7f7f7;
+}
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 27px;
+}
+
+td, th {
+  text-align: left;
+  padding: 8px;
+  font-size: 13px;
+}
+
+td:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+hr {
+  border-top: 1px solid #ddd;
+}
+
+.footer-bottom {
+  padding-top: 27px;
 }
 
 .footer-right {
@@ -132,6 +167,7 @@ body {
 
 .footer-right i {
   padding-left: 1em;
+  cursor: pointer;
 }
 
 .footer-right a {
