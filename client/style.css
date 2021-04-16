@@ -8,7 +8,7 @@ body {
 .topnav {
   position: relative;
   overflow: hidden;
-  padding: 1em 9em;
+  padding: 1em 11%;
   box-shadow: 0 10px 6px -6px #f4f4f4;
 }
 
@@ -18,20 +18,16 @@ body {
 
 .space-shuttle {
   color:#ff395b;
-  position: absolute;
-  top: 20px;
-  left: 5em;
+  position: relative;
   transform: rotate(270deg)
 }
 
 .spacebnb {
   position: absolute;
-  text-align: top;
   font-size: 20px;
   color: #ff395b;
   font-weight: bold;
-  padding-top: 8px;
-  padding-left: 50px;
+  padding-top: 5px;
 }
 
 .topnav a {
@@ -111,39 +107,41 @@ body {
 }
 
 #title {
-  width: 86%;
-  padding-left: 7%;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-bottom: 2em;
+}
+
+#photogallery {
+  padding-left: 10%;
+  padding-right: 3%;
 }
 
 #description {
-  padding-left: 4%;
-  padding-right: 4%;
+  padding-left: 6%;
+  padding-right: 6%;
 }
 
 hr {
   border-top: 1px solid #ddd;
-  width: 83%;
+  width: 78%;
   margin: 0 auto;
 }
 
 #reviews {
-  width: 80%;
-  padding-top: 2em;
-  padding-bottom: 2em;
-  margin-left:  8%;
-  margin-right:  8%;
+  padding: 2em 10%;
 }
 
 
 #host {
-  width: 86%;
-  padding-left: 6%;
+  padding-left: 8%;
+  padding-left: 8%;
   height: auto;
   overflow: hidden;
 }
 
 .footer {
-  padding: 27px 9em;
+  padding: 27px 11%;
   color: #222223;
   font-weight: 300;
   background-color: #f7f7f7;
