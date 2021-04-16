@@ -120,13 +120,26 @@ body {
   padding-right: 4%;
 }
 
+hr {
+  border-top: 1px solid #ddd;
+  width: 83%;
+  margin: 0 auto;
+}
+
 #reviews {
   width: 80%;
   padding-top: 2em;
   padding-bottom: 2em;
   margin-left:  8%;
   margin-right:  8%;
-  border-top: 1px solid #ddd;
+}
+
+
+#host {
+  width: 86%;
+  padding-left: 6%;
+  height: auto;
+  overflow: hidden;
 }
 
 .footer {
@@ -152,8 +165,8 @@ td:hover {
   cursor: pointer;
 }
 
-hr {
-  border-top: 1px solid #ddd;
+.footer hr {
+  width: 100%;
 }
 
 .footer-bottom {
