@@ -8,7 +8,7 @@ body {
 .topnav {
   position: relative;
   overflow: hidden;
-  padding: 1em 11%;
+  padding: 1em 11em;
   box-shadow: 0 10px 6px -6px #f4f4f4;
 }
 
@@ -107,41 +107,40 @@ body {
 }
 
 #title {
-  padding-left: 8%;
-  padding-right: 8%;
+  padding-left: 9em;
+  padding-right: 9em;
   padding-bottom: 2em;
 }
 
 #photogallery {
-  padding-left: 10%;
-  padding-right: 3%;
+  padding-left: 11em;
+  padding-right: 11em;
 }
 
 #description {
-  padding-left: 6%;
-  padding-right: 6%;
+  padding-left: 6em;
+  padding-right: 6em;
 }
 
 hr {
   border-top: 1px solid #ddd;
-  width: 78%;
-  margin: 0 auto;
+  margin: 0 11em;
 }
 
 #reviews {
-  padding: 2em 10%;
+  padding: 2em 11em;
 }
 
 
 #host {
-  padding-left: 8%;
-  padding-left: 8%;
+  padding-left: 8em;
+  padding-right: 8em;
   height: auto;
   overflow: hidden;
 }
 
 .footer {
-  padding: 27px 11%;
+  padding: 27px 11em;
   color: #222223;
   font-weight: 300;
   background-color: #f7f7f7;
@@ -165,6 +164,7 @@ td:hover {
 
 .footer hr {
   width: 100%;
+  margin: 0 0;
 }
 
 .footer-bottom {
