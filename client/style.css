@@ -16,6 +16,10 @@ body {
   vertical-align: middle;
 }
 
+.topnav i:hover {
+  cursor: pointer;
+}
+
 .space-shuttle {
   color:#ff395b;
   position: relative;
@@ -28,6 +32,10 @@ body {
   color: #ff395b;
   font-weight: bold;
   padding-top: 5px;
+}
+
+.spacebnb:hover {
+  cursor: pointer;
 }
 
 .topnav a {
